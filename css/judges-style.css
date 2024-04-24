@@ -25,20 +25,18 @@ h1 {
 /* container */
 .judge-container {
     width: 1000px;
-    height: auto;
+    height: 100vh;
     position: relative;
 }
 
 .judge-cards {
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     display: grid;
     grid-template-columns: repeat(6, 400px);
     grid-gap: 20px;
     pointer-events: none;
-    padding: 14px;
-    height: 100%;
 }
 
 .judge-card {
